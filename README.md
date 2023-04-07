@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# ProNet - Network Analyzer and Visualizer
+(Extention Phase : Working on extention, adding more functionality to the platform.) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
+Pronet is a Protien-Protien Interaction network analyzer and visualizer, that represent the complex biological network in a 3-Dimensional visual Graph structure to provide the user with ease to study any Protein-Protein Interaction network.Our platform provides the feature through which users can upload the data of the network and can analyze the protein protein interaction network with several centrality algorithms to find out the most influential node on the basis of the centrality of a protein node. 
 
-In the project directory, you can run:
+## Tools & Technologies
+1. ### languages
+    - Javascript
+2. ### Libraries & Framework
+    - React
+    - React-force-graph
+    - Tailwind CSS
 
-### `npm start`
+## Demo Snapshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home
+![homepage](./pronetSS/homeSS.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Visualize
+![visualize input](./pronetSS/visualInputSS.png)
 
-### `npm test`
+![visualize result](./pronetSS/visualResult.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Analyze
+![centrality options](./pronetSS/cc.png)
+![analyze input](./pronetSS/analyzeInput.png)
+![top nodes list](./pronetSS/topNodesList.png)
+![top nodes graph](./pronetSS/topNodesVis.png)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
