@@ -1,5 +1,4 @@
 # ProNet - Network Analyzer and Visualizer
-(Extention Phase : Working on extention, adding more functionality to the platform.) 
 
 
 ## Description
